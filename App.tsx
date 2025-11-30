@@ -1,11 +1,11 @@
 import React from 'react';
 import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
-import { TransactionProvider } from './context/TransactionContext';
+import { TransactionProvider } from './src/context/TransactionContext';
 
-import HomeScreen from './screens/HomeScreen';
-import AddTransactionScreen from './screens/AddTransactionScreen';
-import ReportScreen from './screens/ReportScreen';
+import HomeScreen from './src/screens/HomeScreen';
+import AddTransactionScreen from './src/screens/AddTransactionScreen';
+import ReportScreen from './src/screens/ReportScreen';
 
 const Stack = createStackNavigator();
 
